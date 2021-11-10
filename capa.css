@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+  }
+  
+ body {
+    font-family: "Nunito",sans-serif;
+
+    /* The image used */
+    background-image: url("imgs/daniLo.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+
+}
+
+#mainNavbar .nav-link:hover{
+    color:#107869;
+}
+
+#mainNavbar .navbar-brand{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+#pedro{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 100;
+    color: white;
+}
+
+#pedro:hover{
+    font-size:4rem;
+    transition-duration: 1s;
+}

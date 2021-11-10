@@ -227,8 +227,3 @@ body{
     grid-area:img23;
     background-image: url("imgs/amanda.jpeg");
 }
-
-.imgInitialPage{
-    grid-area:imgInitialPage;
-    background-image: url("imgs/daniLo.jpeg");
-}
