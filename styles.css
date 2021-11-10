@@ -4,25 +4,25 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
     background:white ;
     font-family: "Nunito",sans-serif;
     padding: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     display:flex;
     width:100%;
     height:100vh;
 }
 
+
+
 #mainNavbar{
     font-size: 1.5rem;
     font-weight: 100;
-    background:#08313A;
-}
-
-.navbar .scrolled{
-    transition: background 500ms;
     background:#08313A;
 }
 
@@ -44,7 +44,6 @@ body{
     color: white;
 }
 
-
 .container{
     width:100%;
     max-width: 120rem;
@@ -54,14 +53,20 @@ body{
 
 .image-galery{
     display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:auto;
     grid-gap:1.5rem;
     grid-template-areas: 
-        'img1 img1 img2 img2'
-        'img3 img4 img4 img5'
-        'img3 img4 img4 img5'
-        'img3 img4 img4 img5';
+        'img1 img1 img2 img3 img3'
+        'img5 img5 img8 img8 img10'
+        'img4 img6 img6 img6 img7'
+        'img11 img11 img9 img9 img7'
+        'img11 img11 img13 img14 img14'
+        'img15 img16 img16 img18 img18'
+        'img15 img19 img19 img18 img18'
+        'img17 img19 img19 img21 img22'
+        'img17 img20 img23 img23 img23';
+
 
 }
 
@@ -109,36 +114,121 @@ body{
 .img1{
     grid-area:img1;
     /*min-height: 51.5rem;*/
-    background-image: url("imgs/lu2.jpeg");
+    background-image: url("imgs/lu6.jpeg");
 }
 
 .img2{
     grid-area:img2;
-    background-image: url("imgs/lely2.jpeg");
+    background-image: url("imgs/lu3.jpeg");
 }
 
 .img3{
     grid-area:img3;
-    background-image: url("imgs/lore.jpeg");
+    background-image: url("imgs/lely2.jpeg");
 }
 
 .img4{
     grid-area:img4;
-    background-image: url("imgs/ana1.jpeg");
+    background-image: url("imgs/cla1.jpeg");
 }
 
 .img5{
     grid-area:img5;
-    min-height: 51.5rem;
-    background-image: url("imgs/lu8.jpeg");
+    background-image: url("imgs/lu2.jpeg");
 }
 
 .img6{
     grid-area:img6;
-    background-image: url("imgs/lu3.jpeg");
+    background-image: url("imgs/ana1.jpeg");
 }
 
 .img7{
+    min-height: 51.5rem;
     grid-area:img7;
+    background-image: url("imgs/lu8.jpeg");
+}
+
+.img8{
+    grid-area:img8;
+    background-image: url("imgs/lely1.jpeg");
+}
+
+.img9{
+    grid-area:img9;
+    background-image: url("imgs/lu7.jpeg");
+}
+
+.img10{
+    grid-area:img10;
+    background-image: url("imgs/lu.jpeg");
+}
+
+.img11{
+    grid-area:img11;
+    min-height: 51.5rem;
+    background-image: url("imgs/lore.jpeg");
+}
+
+.img13{
+    grid-area:img13;
+    background-image: url("imgs/cla2.jpeg");
+}
+
+.img14{
+    grid-area:img14;
+    background-image: url("imgs/luguilla2.jpeg");
+}
+
+.img15{
+    grid-area:img15;
+    min-height: 51.5rem;
+    background-image: url("imgs/pedro3.jpeg");
+}
+
+.img16{
+    grid-area:img16;
+    background-image: url("imgs/cla3.jpeg");
+}
+
+.img17{
+    grid-area:img17;
+    min-height: 51.5rem;
+    background-image: url("imgs/bridge.jpeg");
+}
+
+.img18{
+    grid-area:img18;
+    min-height: 51.5rem;
+    background-image: url("imgs/dog.jpeg");
+}
+
+.img19{
+    grid-area:img19;
+    min-height: 51.5rem;
+    background-image: url("imgs/pedro4.jpeg");
+}
+
+.img20{
+    grid-area:img20;
+    background-image: url("imgs/lu5.jpeg");
+}
+
+.img21{
+    grid-area:img21;
+    background-image: url("imgs/lelyLu1.jpeg");
+}
+
+.img22{
+    grid-area:img22;
     background-image: url("imgs/lu4.jpeg");
+}
+
+.img23{
+    grid-area:img23;
+    background-image: url("imgs/amanda.jpeg");
+}
+
+.imgInitialPage{
+    grid-area:imgInitialPage;
+    background-image: url("imgs/daniLo.jpeg");
 }
