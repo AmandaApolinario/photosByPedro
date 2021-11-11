@@ -3,7 +3,7 @@
 *::after{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
+
     text-decoration: none;
 }
 
@@ -13,11 +13,10 @@ body{
     padding: 10rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
-    display:flex;
+
     width:100%;
     height:100vh;
 }
-
 
 
 #mainNavbar{
@@ -42,4 +41,16 @@ body{
     font-size: 1.5rem;
     font-weight: 100;
     color: white;
+}
+
+.pedro{
+    background-size: auto;
+    max-width: 100%;
+    height: auto;
+   /* overflow-x:hidden;*/
+}
+
+#contato{
+    padding: 35rem;
+    padding-top: 15rem;
 }
