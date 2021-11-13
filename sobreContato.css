@@ -38,10 +38,13 @@ body{
 
 .section{
     width:100%;
-    min-height: 60vh;
+    min-height: 100vh;
     background-color:#ddd;
 }
 
+.sec-contato{
+    min-height: 60vh;
+}
 .container{
     width: 80%;
     display:block;
