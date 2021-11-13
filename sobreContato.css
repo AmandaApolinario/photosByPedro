@@ -42,15 +42,3 @@ body{
     font-weight: 100;
     color: white;
 }
-
-.pedro{
-    background-size: auto;
-    max-width: 100%;
-    height: auto;
-   /* overflow-x:hidden;*/
-}
-
-#contato{
-    padding: 35rem;
-    padding-top: 15rem;
-}
