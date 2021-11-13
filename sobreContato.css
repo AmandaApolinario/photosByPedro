@@ -10,12 +10,6 @@
 body{
     background:white ;
     font-family: "Nunito",sans-serif;
-    padding: 10rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    display:flex;
-    width:100%;
-    height:100vh;
 }
 
 #mainNavbar{
@@ -40,4 +34,153 @@ body{
     font-size: 1.5rem;
     font-weight: 100;
     color: white;
+}
+
+.section{
+    width:100%;
+    min-height: 60vh;
+    background-color:#ddd;
+}
+
+.container{
+    width: 80%;
+    display:block;
+    margin:auto;
+    padding-top: 100px;
+}
+
+.content-section{
+    float:left;
+    width: 55%;
+}
+
+.image-section{
+    float:right;
+    width:40%;
+}
+
+.image-section img{
+    padding-bottom: 30px;
+    width:100%;
+    height: auto;
+}
+
+.content-section{
+    font-size: 1.7rem;
+    font-weight: 100;
+    text-align: justify;
+    color:#08313A;
+}
+
+.content-section .social{
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#email{
+    list-style-type:none;
+}
+.content-section .social i{
+    color:#08313A;
+    font-size: 30px;
+    padding: 0px 10px;
+    
+}
+
+.content-section .social .click:hover{
+    color:#107869;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        width: 80%;
+        display:block;
+        margin:auto;
+        padding-top: 100px;
+    }
+
+    .content-section{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+    }
+
+    .image-section{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+    }
+
+    .content-section .social{
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin:auto;
+    }
+}
+
+#contato{
+    background-color: rgb(200, 214, 223);
+
+    font-size: 1.7rem;
+    font-weight: 100;
+    text-align: justify;
+    color:#08313A;
+}
+
+.duvidas{
+    font-size: 1.5rem;
+}
+
+.img-palmeira{
+    box-sizing: border-box;
+}
+
+.palmeiras{
+    width:100%;
+    display: block;
+    align-items: center;
+    max-height: 650px;
+    object-fit: cover;
+
+    
+}
+
+.info{
+    line-height: 200%;
+}
+
+.left{
+    float:left;
+    width: 55%;
+}
+
+.right{
+    float:right;
+    width:30%;
+}
+
+.right .social i{
+    color:#08313A;
+    font-size: 30px;
+    padding: 0px 10px;
+    padding-bottom: 20px;
+}
+
+.right .social .click:hover{
+    color:#107869;
+    transition-duration: 0.5s;
 }
