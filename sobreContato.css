@@ -118,7 +118,7 @@ a{
         width:100%;
         display:block;
         margin:auto;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .image-section{
@@ -131,6 +131,7 @@ a{
     .content-section .social{
         text-align: center;
         padding-bottom: 15px;
+        padding-top: 0px;
     }
 
     .image-section img{
@@ -209,7 +210,7 @@ a{
         
     }
     .section{
-        width: 80%;
+        width: 100%;
         display:block;
         margin:auto;
         padding-top: 0px;
