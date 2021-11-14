@@ -8,7 +8,7 @@
 }
 
 body{
-    background:white ;
+    background-color: #ddd;
     font-family: "Nunito",sans-serif;
     padding: 10rem;
     padding-top: 10rem;
@@ -67,7 +67,7 @@ body{
         'img17 img19 img19 img21 img22'
         'img17 img20 img23 img23 img23';
 
-
+    padding-bottom: 70px;
 }
 
 .image-galery a{
@@ -226,4 +226,50 @@ body{
 .img23{
     grid-area:img23;
     background-image: url("imgs/amanda.jpeg");
+}
+
+
+@media screen and (max-width:900px){
+    .image-galery{
+        /*grid-template-areas: 
+        'img1 img1 img2 img3 img3'
+        'img5 img5 img8 img8 img10'
+        'img4 img6 img6 img6 img7'
+        'img11 img11 img9 img9 img7'
+        'img11 img11 img13 img14 img14'
+        'img15 img16 img16 img18 img18'
+        'img15 img19 img19 img18 img18'
+        'img17 img19 img19 img21 img22'
+        'img17 img20 img23 img23 img23';*/
+        grid-template-areas:
+
+            'img1 img1 img1 img1 img1'
+            'img2 img2 img2 img2 img2'
+            'img3 img3 img3 img3 img3'
+            'img5 img5 img5 img5 img5'
+            'img8 img8 img8 img8 img8'
+            'img10 img10 img10 img10 img10'
+            'img4 img4 img4 img4 img4'
+            'img6 img6 img6 img6 img6'
+            'img7 img7 img7 img7 img7'
+            'img11 img11 img11 img11 img11'
+            'img9 img9 img9 img9 img9'
+            'img13 img13 img13 img13 img13'
+            'img14 img14 img14 img14 img14'
+            'img15 img15 img15 img15 img15'
+            'img16 img16 img16 img16 img16'
+            'img18 img18 img18 img18 img18'
+            'img19 img19 img19 img19 img19'
+            'img17 img17 img17 img17 img17'
+            'img21 img21 img21 img21 img21'
+            'img22 img22 img22 img22 img22'
+            'img20 img20 img20 img20 img20'
+            'img23 img23 img23 img23 img23'
+    }
+
+    .image-galery a{
+        height: 20rem;
+    }
+
+
 }
