@@ -103,6 +103,7 @@ a{
 @media screen and (max-width:768px){
     body{
         background-color: rgb(200, 214, 223);
+      
     }
     
     .container{
@@ -143,12 +144,13 @@ a{
 }
 
 #contato{
-    background-color: rgb(200, 214, 223);
-
+    background-color: #ddd;
+    
     font-size: 1.7rem;
     font-weight: 100;
     text-align: justify;
     color:#08313A;
+
 }
 
 .duvidas{
@@ -176,11 +178,13 @@ a{
 .left{
     float:left;
     width: 55%;
+    padding-bottom: 70px;
 }
 
 .right{
     float:right;
     width:30%;
+
 }
 
 .right .social i{
