@@ -101,11 +101,16 @@ a{
 }
 
 @media screen and (max-width:768px){
+    body{
+        background-color: rgb(200, 214, 223);
+    }
+    
     .container{
         width: 80%;
         display:block;
         margin:auto;
         padding-top: 100px;
+        
     }
 
     .content-section{
@@ -113,6 +118,7 @@ a{
         width:100%;
         display:block;
         margin:auto;
+        font-size: 1.3rem;
     }
 
     .image-section{
@@ -186,4 +192,49 @@ a{
 .right .social .click:hover{
     color:#107869;
     transition-duration: 0.5s;
+}
+
+.github{
+    color:#08313A;    
+}
+
+@media screen and (max-width:768px){
+    .palmeiras{
+        width:100%;
+        display: block;
+        align-items: center;
+        max-height: 650px;
+        object-fit: cover;
+    
+        
+    }
+    .section{
+        width: 80%;
+        display:block;
+        margin:auto;
+        padding-top: 0px;
+    }
+
+    .left{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+        font-size: 1.3rem;
+    }
+
+    .right{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+        padding-bottom: 50px;
+    }
+
+    .social{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
 }

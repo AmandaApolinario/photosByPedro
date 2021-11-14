@@ -20,7 +20,7 @@ body, html {
 #mainNavbar{
     font-size: 1.5rem;
     font-weight: 100;
-
+    
 }
 
 #mainNavbar .nav-link:hover{
@@ -43,4 +43,17 @@ body, html {
 #pedro:hover{
     font-size:4rem;
     transition-duration: 1s;
+}
+
+
+
+@media screen and (max-width:768px){
+    body{
+        width:100%;
+        display: block;
+        background-position: -20rem;
+        object-fit: cover;
+        
+        
+    }
 }
